@@ -157,7 +157,7 @@ start_button = InlineKeyboardMarkup(
 )
 
 start_text = f"""
-Hello There ! I'm **Rosebot** ✨ 
+Hello There ! I'm **😈Devil Bot😈** ✨ 
 An  advanced telegram Group management Bot For help 
 You Protect Your Groups & Suit For All Your Needs.
 """
@@ -179,9 +179,9 @@ basichelp_string = """
 ✘ Base commands are the basic tools of Rose Bot which help you to manage 
 your group easily and effectivelyYou can choose 
 an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/slbotzone).
+Also you can ask anything in [Support Group](https://t.me/botcopagroup).
 
->> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/szteambots/872)
+>> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/botcopagroup)
 """
 
 funtools_string = """
@@ -189,9 +189,9 @@ funtools_string = """
 
 ✘ Extra tools which are available in bot and tools made for fun are here
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/slbotzone).
+Also you can ask anything in [Support Group](https://t.me/botcopagroup).
 
-Click buttons to get help [?](https://t.me/szteambots/872)
+Click buttons to get help [?](https://t.me/botcopagroup)
 """
 
 advtools_string = """
@@ -200,9 +200,9 @@ advtools_string = """
 ✘ Advanced commands will help you to secure your groups 
 from attackers and do many stuff in group from a single bot
 You can choose an option below, by clicking a button.
-Also you can ask anything in [Support Group](https://t.me/slbotzone).
+Also you can ask anything in [Support Group](https://t.me/botcopagroup).
 
->> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/szteambots/872)
+>> [Shorter the Way, Faster you Go! 🏃‍♂️](https://t.me/botcopagroup)
 """
 
 @app.on_message(filters.command(["start", f"@{BOT_USERNAME}"]))
@@ -323,10 +323,10 @@ keyboar = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="👮‍♀️Basic Menu", callback_data="basic_menu"
+                            text="😈♀️Basic Menu", callback_data="basic_menu"
                         ),
                         InlineKeyboardButton(
-                            text="👨‍🔧 Advanced Menu", callback_data="adv_menu"
+                            text="😈 Advanced Menu", callback_data="adv_menu"
                         ),
                     ],
                     [
@@ -334,15 +334,15 @@ keyboar = InlineKeyboardMarkup(
                             text="👨🏻‍💼 Expert ", callback_data="ftools_back"
                         ),
                         InlineKeyboardButton(
-                            text="🕵🏻‍♀️ Inline ", callback_data="_inline"
+                            text="😈Inline ", callback_data="_inline"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="👱‍♂️How to Use Me", callback_data="_how"
+                            text="😈♂️How to Use Me", callback_data="_how"
                         ),
                         InlineKeyboardButton(
-                            text="👩‍💻About Me", callback_data="_about"
+                            text="😈💻About Me", callback_data="_about"
                         ),
                     ],
                     [
@@ -384,23 +384,23 @@ async def help_parser(name, keyboard=None):
                 [
                     [
                         InlineKeyboardButton(
-                            text="👮‍♀️Basic Menu", callback_data="basic_menu"
+                            text="😈♀️Basic Menu", callback_data="basic_menu"
                         ),
                         InlineKeyboardButton(
-                            text="👨‍🔧 Advanced Menu", callback_data="adv_menu"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="👨🏻‍💼 Expert ", callback_data="ftools_back"
-                        ),
-                        InlineKeyboardButton(
-                            text="🕵🏻‍♀️ Inline ", callback_data="_inline"
+                            text="😈 Advanced Menu", callback_data="adv_menu"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🔽 Expand Menu ", callback_data="expand_"
+                            text="😈 Expert ", callback_data="ftools_back"
+                        ),
+                        InlineKeyboardButton(
+                            text="😈 Inline ", callback_data="_inline"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="😈 Expand Menu ", callback_data="expand_"
                         )
                     ],
                         [InlineKeyboardButton(text="🔙 Back", callback_data="startcq")],
@@ -914,9 +914,9 @@ async def popat(_, CallbackQuery):
 
 
 text = """
-@szrosebot is one of the fastest and most feature filled group manager.
+@dota99bot is one of the fastest and most feature filled group manager.
 
-Rose ✨ is developed and actively maintained by @szteambots!
+😈Bot Company😈 is developed and actively maintained by @szteambots!
 
 Rose has been online since 2021/8/10 and have many [groups and users.](https://t.me/szteambots/890)
 
@@ -961,7 +961,7 @@ async def commands_callbacc(_, CallbackQuery):
 
 TEXT_PAT_1 = """
 **Welcome to the Rose Configuration**
-The first thing to do is to add Rose Bot ✨ to your group! 
+The first thing to do is to add 😈Devil Bot😈to your group! 
 For doing that, press the under button and select your group,
 then press Done to continue the tutorial..
 """
